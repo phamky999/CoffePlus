@@ -1,0 +1,228 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+    font-size: 62.5%;
+
+}
+
+body {
+    font-size: 1.4rem;
+    font-weight: 300;
+    overflow-x: hidden;
+    position: relative;
+    z-index: 0;
+    overflow-x: hidden;
+    z-index: 1;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: unset;
+}
+
+li {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1366px;
+    margin: auto;
+    padding: 0 80px;
+    position: relative;
+}
+.root{
+    position: relative;
+}
+
+
+
+.reveal{
+    position: relative;
+    transform: translateY(40px);
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+.reveal--active{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------CSS Footer----------*/
+footer{
+    font-weight: 500;
+    background-image: url(../Imgs/home7-parallax-2.jpg);
+    background-position: center center;
+    background-size: cover;
+    min-height: 100px;
+    color: var(--white-color);
+}
+.footer-box{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(12, 9, 10, 0.905);
+    padding: 20px;
+}
+.footer-calendar>h4,.footer-news>h4,.footer-contact>h4,.footer-get-info>h4{
+    padding: 40px 0;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.footer-calendar ul li{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.footer-space{
+    height: 30%;
+    flex: 1;
+    border-bottom: 1px dashed var(--white-color);
+}
+.footer-news{
+    padding-right: 50px;
+}
+.footer-news-item{
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid var(--white-color);
+    margin-bottom: 20px;
+}
+.footer-news-list .footer-news-item:last-child{
+    width: 100%;
+    height: 80px;
+    border: none;
+}
+.footer-news-item a span{
+    font-size: 1.8rem;
+    transition: 0.5s ease;
+}
+.footer-news-item a:hover>span{
+    font-size: 1.8rem;
+    color: var(--primary-color);
+}
+.contact-item{
+    height: 30px;
+}
+.contact-item:last-child{
+    padding-top: 20px;
+}
+.footer-news-item p{
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+.contact-logo{
+    padding-bottom: 20px;
+}
+.contact-logo img{
+    height: 50px;
+}
+
+.contact-item span{
+    font-weight: 300;
+}
+.contact-item svg{
+    font-size: 1.6rem;
+    margin-right: 10px;
+}
+.contact-socical svg{
+    font-size: 2rem;
+    margin-right: 20px;
+    transition: 0.5s ease;
+}
+
+.contact-socical a:hover>svg{
+    color: var(--primary-color);
+}
+.footer-get-info>form{
+    display: flex;
+    align-items: center;
+} 
+#get-info-text{
+    outline: none;
+    padding: 10px;
+    line-height: 18px;
+    height: 39px;
+    width: 60%;
+    border: 1px solid var(--primary-color);
+}
+#get-info-button{
+    height: 39px;
+    width: 39px;
+    text-align: center;
+    background-color: var(--white-color);
+    outline: none;
+    border: 2px solid var(--white-color);
+    margin-left: 10px;
+    transition: 0.5s ease;
+}
+#get-info-button>i{
+    transition: 0.5s ease;
+    font-size: 2rem;
+}
+#get-info-button:hover{
+    background-color: var(--primary-color);
+}
+#get-info-button:hover>svg{
+    color: var(--white-color);
+}
+
+/*----------END CSS Footer----------*/
+
+/* back to top css */
+/* <div class="back-to-top">
+            <i class="fas fa-arrow-alt-circle-right"></i>
+        </div> */
+
+
+.back-to-top{
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    /* opacity: 0;
+    visibility: hidden; */
+    
+    transition: all 0.5s ease;
+}
+.back-to-top>svg{
+    font-size: 2.2rem;
+    color: var(--primary-color);
+    transition: all 0.5s ease;
+}
+.back-to-top>svg:hover{
+    color: black;
+    font-size: 2.5rem;
+}

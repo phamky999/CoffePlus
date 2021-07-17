@@ -1,0 +1,1180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Plus</title>
+    <!-- font-family: 'Poppins', sans-serif; -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,800;1,200;1,300;1,400;1,500;1,600;1,800&display=swap"
+        rel="stylesheet">
+    <!-- Box icons -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./Css/all.min.css">
+    <link rel="stylesheet" href="./Css/normalize.css">
+    <link rel="stylesheet" href="./Css/grid.css">
+    <link rel="stylesheet" href="./Css/app.css">
+    <link rel="stylesheet" href="./Css/index.css">
+
+</head>
+
+<body>
+
+    <div class="root">
+        <!-- Header -->
+        <header id="header">
+
+
+            <span class="show-menu">
+                <i class="fas fa-bars"></i>
+            </span>
+            <div class="logo-box">
+                <p class="logo--white">Coffee<span>Plus</span><em>.</em></p>
+            </div>
+            <div class="header-right">
+                <ul class="header-menu">
+                    <li class="menu-item">
+                        <a href="#">home</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">menu</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">book</a>
+                    </li>
+                    <li class="menu-item dropdow-box ">
+                        <a href="#">pages</a>
+                        <ul class="menu-item-dropdown dropdow--grow">
+                            <li class="dropdown-item">
+                                <a href="#">about me</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a href="#">what we offer</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a href="#">meet out team</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a href="#">our process</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a href="#">contact us</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a href="#">404 eror page</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a href="#">gallery</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">blog</a>
+                    </li>
+                    <li class="menu-item"> <a href="#">shop</a></li>
+                </ul>
+                <span class="space">|</span>
+                <div class="header-cart dropdow-box">
+                    <a href="#" class="header-cart-link">
+                        <i class='bx bx-cart-alt'></i>
+                        <span id="cart-count">2</span>
+                    </a>
+                    <!-- Cart emty: -->
+                    <!-- <div class="cart-drowpdow cart-dropdown--emty dropdow--grow">
+                                <ul class="cart-dropdown-list">
+                                    <li class="cart-dropdown-item--emty">
+                                        No products in the cart
+                                    </li>
+                                </ul>
+                            </div> -->
+
+                    <!-- cart list -->
+                    <div class=" cart-drowpdow dropdow--grow">
+                        <ul class="cart-dropdown-list">
+                            <li class="cart-item">
+                                <div class="cart-item-image">
+                                    <a href="#">
+                                        <img src="./Imgs/product-image-1-300x300.jpg" alt="Images">
+                                    </a>
+                                </div>
+                                <div class="cart-item-info">
+                                    <div class="cart-item-left">
+                                        <a href="#">
+                                            <p>Product</p>
+                                        </a>
+                                        <p>Quantity: <span>1</span></p>
+                                        <p style="color: var(--primary-color);">
+                                            <span>45000</span><span> VNĐ</span>
+                                        <p>
+
+                                    </div>
+                                    <div class="cart-item-right">
+                                        <a href="">
+                                            <i class='bx bx-x'></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="cart-item">
+                                <div class="cart-item-image">
+                                    <a href="#">
+                                        <img src="./Imgs/product-image-1-300x300.jpg" alt="Images">
+                                    </a>
+                                </div>
+                                <div class="cart-item-info">
+                                    <div class="cart-item-left">
+                                        <a href="#">
+                                            <p>Product</p>
+                                        </a>
+                                        <p>Quantity: <span>1</span></p>
+                                        <p style="color: var(--primary-color);">
+                                            <span>45000</span><span> VNĐ</span>
+                                        <p>
+
+                                    </div>
+                                    <div class="cart-item-right">
+                                        <a href="">
+                                            <i class='bx bx-x'></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <div class="cart-bottom">
+                                <div class="cart-itemtotal">
+                                    <span>Totals:</span>
+                                    <span
+                                        style="color: var(--primary-color);"><span>90000</span><span>
+                                            VNĐ</span></span>
+                                </div>
+                                <div class="cart-button-group">
+
+                                    <a href="#" class="button-group cart-button-view-cart">
+                                        <span>View Cart</span>
+                                    </a>
+
+                                    <a href="#" class="button-group cart-button-pay">
+                                        <span>Checkout</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                    <!-- end cart list -->
+                </div>
+                <div class="header-search">
+                    <a href="#" class="header-search-links" id='search-btn'>
+                        <i class='bx bx-search'></i>
+
+                    </a>
+                    <!-- form search -->
+                    <div id='searchForm' class="form-search ">
+                        <form action="" class="form-search-main">
+                            <input id='form-search-input' type="text"
+                                placeholder="Enter your keyword...">
+                            <button id='form-search-submit'>SEARCH</button>
+                            <div id="form-search-exit">
+                                <i class='bx bx-x'></i>
+                            </div>
+
+                        </form>
+                    </div>
+                    <!-- end form search -->
+                </div>
+            </div>
+
+        </header>
+
+        <!-- end header -->
+        <!--main content -->
+        <main>
+            <!-- slider -->
+            <div class="slider">
+
+                <div class="slider-item">
+                    <div class="item-content">
+                        <h3 class="left-right trans-delay-0-2">importance of coffee</h3>
+                        <p class="right-left trans-delay-0-3">
+                            <em>
+                                Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. <br>Aperiam alias hic quibusdam, quis maiores accusantium
+                                neque
+                            </em>
+                        </p>
+                        <div class="top-down trans-delay-0-4">
+                            <button class="slider-btn-readmore ">read
+                                more</button>
+                        </div>
+
+                    </div>
+                    <div class="item-img"
+                        style="background-image:url(./Imgs/home-1-slider.jpg); background-repeat: no-repeat;background-size: cover;background-position: center center;">
+
+                    </div>
+                </div>
+                <div class="slider-item ">
+                    <div class="item-content">
+                        <h3 class="left-right trans-delay-0-2">the home of coffee</h3>
+                        <p class="right-left trans-delay-0-3">
+                            <em>
+                                Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. <br>Aperiam alias hic quibusdam, quis maiores accusantium
+                                neque
+                            </em>
+                        </p>
+                        <div class="top-down trans-delay-0-4">
+                            <button class="slider-btn-readmore ">read
+                                more</button>
+                        </div>
+                    </div>
+                    <div class="item-img"
+                        style="background-image:url(./Imgs/home-1-slider-img-2.jpg); background-repeat: no-repeat;background-size: cover;background-position: center center;">
+
+                    </div>
+                </div>
+                <div class="slider-item ">
+                    <div class="item-content">
+                        <h3 class="left-right trans-delay-0-2">brewed to perfection</h3>
+                        <p class="right-left trans-delay-0-3">
+                            <em>
+                                Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. <br>Aperiam alias hic quibusdam, quis maiores accusantium
+                                neque
+                            </em>
+                        </p>
+                        <div class="top-down trans-delay-0-4">
+                            <button class="slider-btn-readmore ">read
+                                more</button>
+                        </div>
+                    </div>
+                    <div class="item-img"
+                        style="background-image:url(./Imgs/home-1-slider-4.jpg); background-repeat: no-repeat;background-size: cover;background-position: center center;">
+
+                    </div>
+                </div>
+                <button class="slider-btn-control prev" onclick="plusSlide(-1)">
+                    <i class='bx bx-chevron-left'></i>
+                </button>
+                <button class="slider-btn-control next" onclick="plusSlide(+1)">
+                    <i class='bx bx-chevron-right'></i>
+                </button>
+
+                <div class="slider-currentSlide">
+                    <span class="current-index current--active" onclick="currentSlide(1)"></span>
+                    <span class="current-index" onclick="currentSlide(2)"></span>
+                    <span class="current-index" onclick="currentSlide(3)"></span>
+                </div>
+
+            </div>
+            <!-- end slider -->
+            <!-- section why choose us -->
+            <section class="choose-box ">
+                
+
+                    <div class="choose-title reveal">
+                        <em>What Happens Here</em>
+                        <h3>coffe build your base.</h3>
+                        <span></span>
+                    </div>
+                    <div class="choose-book container reveal">
+    
+    
+                        <select name="" id="">
+                            <option value="1" selected>1 Person</option>
+                            <option value="2">2 People</option>
+                            <option value="3">3 People</option>
+                            <option value="4">4 People</option>
+                            <option value="5">5 People</option>
+                            <option value="6">6 People</option>
+                            <option value="7">7 People</option>
+                            <option value="8">8 People</option>
+                            <option value="9">9 People</option>
+                            <option value="10">10 People</option>
+                        </select>
+    
+    
+                        <span>FOR</span>
+                        <input type="date">
+    
+                        <span>AT</span>
+                        <select name="" id="">
+                            <option value="1" selected>7:00</option>
+                            <option value="2">7:30</option>
+                            <option value="3">8:00</option>
+                            <option value="4">8:30</option>
+                            <option value="5">9:00</option>
+                            <option value="6">9:30</option>
+                            <option value="7">10:00</option>
+                            <option value="8">10:30</option>
+                            <option value="9">11:00</option>
+                            <option value="10">11:30</option>
+                            <option value="11">12:00</option>
+                            <option value="12">12:30</option>
+                            <option value="13">13:00</option>
+                            <option value="14">13:30</option>
+                            <option value="15">14:00</option>
+                            <option value="16">14:30</option>
+                            <option value="17">15:00</option>
+                            <option value="18">15:30</option>
+                            <option value="19">16:00</option>
+                            <option value="20">16:30</option>
+                            <option value="21">17:00</option>
+                            <option value="22">17:30</option>
+                            <option value="23">18:00</option>
+                            <option value="24">18:30</option>
+                            <option value="25">19:00</option>
+                            <option value="26">19:30</option>
+                            <option value="27">20:00</option>
+                            <option value="28">20:30</option>
+                            <option value="29">21:00</option>
+                            <option value="30">21:30</option>
+                            <option value="31">22:00</option>
+                            <option value="32">22:30</option>
+                            <option value="33">23:00</option>
+                            <option value="34">23:30</option>
+                        </select>
+    
+                        <button>book a table</button>
+    
+                    </div>
+                    <div class="choose-posts container reveal">
+                        <div class="row">
+                            <div class="posts-item col-12 col-sm-6 col-md-4">
+                                <div class="posts-item-img">
+                                    <img src="./Imgs/h-1-img-1.jpg" alt="">
+                                </div>
+    
+    
+                                <h4>beautiful place</h4>
+    
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+                                    porro soluta fuga tempore laborum accusantium culpa doloremque
+                                    magnam illo, quas nostrum perspiciatis ipsam atque laudantium qui
+                                    veniam nobis earum eveniet ex dolor impedit veritatis harum
+                                    molestiae?
+                                </p>
+                                <a href="#" class="posts-item-links">read more
+                                    <i class='bx bx-right-arrow-alt'></i>
+                                </a>
+    
+                            </div>
+                            <div class="posts-item col-12 col-sm-6 col-md-4">
+                                <div class="posts-item-img">
+                                    <img src="./Imgs/h-1-img-2.jpg" alt="">
+                                </div>
+    
+    
+                                <h4>feel the coffee</h4>
+    
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+    
+                                </p>
+                                <a href="#" class="posts-item-links">read more
+                                    <i class='bx bx-right-arrow-alt'></i>
+                                </a>
+    
+                            </div>
+                            <div class="posts-item col-12 col-sm-6 col-md-4">
+                                <div class="posts-item-img">
+                                    <img src="./Imgs/h-1-img-3.jpg" alt="">
+                                </div>
+    
+    
+                                <h4>full taste</h4>
+    
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+                                    porro soluta fuga tempore laborum accusantium culpa doloremque
+                                    magnam illo, quas nostrum perspiciatis ipsam atque laudantium qui
+                                    veniam nobis earum eveniet ex dolor impedit veritatis harum
+                                    molestiae?
+                                </p>
+                                <a href="#" class="posts-item-links">read more
+                                    <i class='bx bx-right-arrow-alt'></i>
+                                </a>
+    
+                            </div>
+    
+                        </div>
+    
+                    </div>
+                
+            </section>
+            <!-- our app -->
+            <section class="ourapp-box container">
+                <div class="row">
+                    <div class=" ourapp-box-img reveal col-12 col-sm-12 col-md-6">
+                        <img src="./Imgs/home-1-img-6.png" alt="">
+                    </div>
+                    <div class="ourapp-box-content reveal col-12 col-sm-12 col-md-6">
+                        <em>Application</em>
+                        <h4>use our application</h4>
+                        <span></span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum quibusdam
+                            in
+                            possimus earum blanditiis architecto mollitia maxime, nam eaque culpa
+                            numquam id sit rem fugiat iste iure rerum corporis iusto.</p>
+                        <a href="#">read more</a>
+
+                    </div>
+                </div>
+
+
+            </section>
+
+            <!-- read more about us  -->
+            <section class="about-us-box container">
+                <div class="about-us-top reveal">
+                    <div class="row">
+
+                        <div class="about-us-item col-12 col-sm-6 col-md-3">
+                            <div class="about-us-item-icon">
+                                <img src="./Imgs/home-1-icon-img-1.png" alt="">
+                                <h4>coffeemaker</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            </div>
+                        </div>
+                        <div class="about-us-item col-12 col-sm-6 col-md-3">
+                            <div class="about-us-item-icon">
+                                <img src="./Imgs/home-1-icon-img-2.png" alt="">
+                                <h4>COFFEE GRINDER</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            </div>
+                        </div>
+                        <div class="about-us-item col-12 col-sm-6 col-md-3">
+                            <div class="about-us-item-icon">
+                                <img src="./Imgs/home-1-icon-img-3.png" alt="">
+                                <h4>COFFEE CUPS</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+                            </div>
+                        </div>
+                        <div class="about-us-item col-12 col-sm-6 col-md-3">
+                            <div class="about-us-item-icon">
+                                <img src="./Imgs/home-1-icon-img-4.png" alt="">
+                                <h4>ESPRESSO MACHINE</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-us-bottom reveal">
+                    <div class="box-left">
+                        <div class="about-us-posts">
+                            <div class="about-us-posts-img">
+                                <img src="./Imgs/home-1-s-slider-1.jpg" alt="">
+                            </div>
+                            <div class="content-box">
+                                <div class="about-us-posts-content">
+                                    <h3>TRY THE BEST COFFEE IN THE CITY</h3>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Quasi
+                                        similique iure est sit doloribus deserunt soluta dolore eius
+                                        totam natus!</p>
+                                    <a href="">
+                                        read more
+                                        <i class='bx bx-right-arrow-alt'></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="box-right">
+                        <div class="about-us-slider">
+                            <div class="about-us-slider-item">
+                                <div class="about-us-slider-img about-us-slider-img--active">
+                                    <img src="./Imgs/main-home-project-pres-1.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="about-us-slider-item">
+                                <div class="about-us-slider-img">
+                                    <img src="./Imgs/main-home-project-pres-2.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="about-us-slider-item">
+                                <div class="about-us-slider-img">
+                                    <img src="./Imgs/main-home-project-pres-3.jpg" alt="">
+                                </div>
+                            </div>
+
+
+                            <div class="slider-index-box">
+                                <span class="about-us-slider-index about-us-current--active"
+                                    onclick="currentSlideAboutUs(1)"></span>
+                                <span class="about-us-slider-index"
+                                    onclick="currentSlideAboutUs(2)"></span>
+                                <span class="about-us-slider-index"
+                                    onclick="currentSlideAboutUs(3)"></span>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </section>
+
+            <!-- menu -->
+            <section class="menu">
+                <div class="menu-bg">
+                    <div class="menu-title reveal">
+                        <em>What Happens Here</em>
+                        <h3>favourite coffee flavours</h3>
+                        <span></span>
+                    </div>
+                    <div class="menu-main container reveal">
+                        <div class="row">
+
+                            <div class="menu-left col-12 col-md-6">
+                                <ul class="menu-list">
+                                    <li class="menu-item">
+                                        <div class="menu-item-left">
+                                            <img src="./Imgs/h-1-list-icon-img-150x150.jpg" alt="">
+                                        </div>
+                                        <div class="menu-item-right">
+                                            <div class="item-right-top">
+                                                <h4>caffe latte</h4>
+                                                <span></span>
+                                                <p class="item-amout">
+                                                    <span>$</span><span>2.95</span>
+                                                </p>
+
+                                            </div>
+                                            <div class="item-right-bottom">
+                                                <p class="item-descri">Lorem ipsum dolor sit amet
+                                                    consectetur adipisicing elit.</p>
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="menu-item">
+                                        <div class="menu-item-left">
+                                            <img src="./Imgs/h-1-list-icon-img-2-150x150.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="menu-item-right">
+                                            <div class="item-right-top">
+                                                <h4>caffe latte</h4>
+                                                <span></span>
+                                                <p class="item-amout">
+                                                    <span>$</span><span>2.95</span>
+                                                </p>
+
+                                            </div>
+                                            <div class="item-right-bottom">
+                                                <p class="item-descri">Lorem ipsum dolor sit amet
+                                                    consectetur adipisicing elit.</p>
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="menu-item">
+                                        <div class="menu-item-left">
+                                            <img src="./Imgs/h-1-list-icon-img-3-150x150.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="menu-item-right">
+                                            <div class="item-right-top">
+                                                <h4>caffe latte</h4>
+                                                <span></span>
+                                                <p class="item-amout">
+                                                    <span>$</span><span>2.95</span>
+                                                </p>
+
+                                            </div>
+                                            <div class="item-right-bottom">
+                                                <p class="item-descri">Lorem ipsum dolor sit amet
+                                                    consectetur adipisicing elit.</p>
+                                                <span class="item--new">New</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="menu-item">
+                                        <div class="menu-item-left">
+                                            <img src="./Imgs/h-1-list-icon-img-4-150x150.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="menu-item-right">
+                                            <div class="item-right-top">
+                                                <h4>caffe latte</h4>
+                                                <span></span>
+                                                <p class="item-amout">
+                                                    <span>$</span><span>2.95</span>
+                                                </p>
+
+                                            </div>
+                                            <div class="item-right-bottom">
+                                                <p class="item-descri">Lorem ipsum dolor sit amet
+                                                    consectetur adipisicing elit.</p>
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="menu-item">
+                                        <div class="menu-item-left">
+                                            <img src="./Imgs/h-1-list-icon-img-5-150x150.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="menu-item-right">
+                                            <div class="item-right-top">
+                                                <h4>caffe latte</h4>
+                                                <span></span>
+                                                <p class="item-amout">
+                                                    <span>$</span><span>2.95</span>
+                                                </p>
+
+                                            </div>
+                                            <div class="item-right-bottom">
+                                                <p class="item-descri">Lorem ipsum dolor sit amet
+                                                    consectetur adipisicing elit.</p>
+                                                <span class="item--new">New</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="menu-item">
+                                        <div class="menu-item-left">
+                                            <img src="./Imgs/h-1-list-icon-img-6-150x150.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="menu-item-right">
+                                            <div class="item-right-top">
+                                                <h4>caffe latte</h4>
+                                                <span></span>
+                                                <p class="item-amout">
+                                                    <span>$</span><span>2.95</span>
+                                                </p>
+
+                                            </div>
+                                            <div class="item-right-bottom">
+                                                <p class="item-descri">Lorem ipsum dolor sit amet
+                                                    consectetur adipisicing elit.</p>
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="menu-right col-12 col-md-6">
+                                <ul class="menu-list">
+                                    <li class="menu-item">
+                                        <div class="menu-item-left">
+                                            <img src="./Imgs/h-1-list-icon-img-7-150x150.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="menu-item-right">
+                                            <div class="item-right-top">
+                                                <h4>caffe latte</h4>
+                                                <span></span>
+                                                <p class="item-amout">
+                                                    <span>$</span><span>2.95</span>
+                                                </p>
+
+                                            </div>
+                                            <div class="item-right-bottom">
+                                                <p class="item-descri">Lorem ipsum dolor sit amet
+                                                    consectetur adipisicing elit.</p>
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="menu-item">
+                                        <div class="menu-item-left">
+                                            <img src="./Imgs/h-1-list-icon-img-8-150x150.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="menu-item-right">
+                                            <div class="item-right-top">
+                                                <h4>caffe latte</h4>
+                                                <span></span>
+                                                <p class="item-amout">
+                                                    <span>$</span><span>2.95</span>
+                                                </p>
+
+                                            </div>
+                                            <div class="item-right-bottom">
+                                                <p class="item-descri">Lorem ipsum dolor sit amet
+                                                    consectetur adipisicing elit.</p>
+                                                <span class="item--new">New</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="menu-item">
+                                        <div class="menu-item-left">
+                                            <img src="./Imgs/h-1-list-icon-img-9-150x150.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="menu-item-right">
+                                            <div class="item-right-top">
+                                                <h4>caffe latte</h4>
+                                                <span></span>
+                                                <p class="item-amout">
+                                                    <span>$</span><span>2.95</span>
+                                                </p>
+
+                                            </div>
+                                            <div class="item-right-bottom">
+                                                <p class="item-descri">Lorem ipsum dolor sit amet
+                                                    consectetur adipisicing elit.</p>
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="menu-item">
+                                        <div class="menu-item-left">
+                                            <img src="./Imgs/h-1-list-icon-img-10-150x150.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="menu-item-right">
+                                            <div class="item-right-top">
+                                                <h4>caffe latte</h4>
+                                                <span></span>
+                                                <p class="item-amout">
+                                                    <span>$</span><span>2.95</span>
+                                                </p>
+
+                                            </div>
+                                            <div class="item-right-bottom">
+                                                <p class="item-descri">Lorem ipsum dolor sit amet
+                                                    consectetur adipisicing elit.</p>
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="menu-item">
+                                        <div class="menu-item-left">
+                                            <img src="./Imgs/h-1-list-icon-img-11-150x150.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="menu-item-right">
+                                            <div class="item-right-top">
+                                                <h4>caffe latte</h4>
+                                                <span></span>
+                                                <p class="item-amout">
+                                                    <span>$</span><span>2.95</span>
+                                                </p>
+
+                                            </div>
+                                            <div class="item-right-bottom">
+                                                <p class="item-descri">Lorem ipsum dolor sit amet
+                                                    consectetur adipisicing elit.</p>
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="menu-item">
+                                        <div class="menu-item-left">
+                                            <img src="./Imgs/h-1-list-icon-img-12-150x150.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="menu-item-right">
+                                            <div class="item-right-top">
+                                                <h4>caffe latte</h4>
+                                                <span></span>
+                                                <p class="item-amout">
+                                                    <span>$</span><span>2.95</span>
+                                                </p>
+
+                                            </div>
+                                            <div class="item-right-bottom">
+                                                <p class="item-descri">Lorem ipsum dolor sit amet
+                                                    consectetur adipisicing elit.</p>
+                                                <span class="item--new">New</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- shop: -->
+            <section class="shop">
+                <div class="shop-title reveal">
+                    <em>What Happens Here</em>
+                    <h3>COFFEE BUILD YOUR BASE.</h3>
+                    <span></span>
+                </div>
+                <div class="shop-box container reveal">
+                    <div class="row">
+                        <div class="shop-item col-12 col-sm-6 col-md-6 col-lg-3">
+                            <div class="shop-item-img">
+                                <a href="#">
+                                    <img src="./Imgs/product-image-2-300x300.jpg" alt="">
+                                </a>
+
+                                <span class="sale-icon">Sale</span>
+
+                                <div class="add-to-cart">
+                                    <a href="#">
+                                        <i class="fas fa-cart-plus"></i>
+                                        <span>Add to cart</span>
+                                    </a>
+
+                                </div>
+
+
+                                <div class="add-to-cart--done">
+
+                                </div>
+                            </div>
+                            <div class="shop-item-content">
+                                <a href="#">
+                                    <h4>PAPER POUCH</h4>
+                                </a>
+
+                                <div class="item-rating">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                </div>
+                                <div class="item-amount">
+                                    <p class="sale-before"><span>$</span><span>46.00</span></p>
+                                    <p class="sale-after"><span>$</span><span>36.00</span></p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="shop-item col-12 col-sm-6 col-md-6 col-lg-3">
+                            <div class="shop-item-img">
+                                <a href="#">
+                                    <img src="./Imgs/product-image-2-300x300.jpg" alt="">
+                                </a>
+
+                                <span class="sale-icon">Sale</span>
+                                <div class="add-to-cart">
+                                    <a href="#">
+                                        <i class="fas fa-cart-plus"></i>
+                                        <span>Add to cart</span>
+                                    </a>
+
+                                </div>
+
+                                <div class="add-to-cart--done">
+
+                                </div>
+                            </div>
+                            <div class="shop-item-content">
+                                <a href="#">
+                                    <h4>PAPER POUCH</h4>
+                                </a>
+
+                                <div class="item-rating">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                </div>
+                                <div class="item-amount">
+                                    <p class="sale-before"><span>$</span><span>46.00</span></p>
+                                    <p class="sale-after"><span>$</span><span>36.00</span></p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="shop-item col-12 col-sm-6 col-md-6 col-lg-3">
+                            <div class="shop-item-img">
+                                <a href="#">
+                                    <img src="./Imgs/product-image-2-300x300.jpg" alt="">
+                                </a>
+
+                                <span class="sale-icon">Sale</span>
+                                <div class="add-to-cart">
+                                    <a href="#">
+                                        <i class="fas fa-cart-plus"></i>
+                                        <span>Add to cart</span>
+                                    </a>
+
+                                </div>
+                                <div class="add-to-cart--done">
+
+                                </div>
+                            </div>
+                            <div class="shop-item-content">
+                                <a href="#">
+                                    <h4>PAPER POUCH</h4>
+                                </a>
+
+                                <div class="item-rating">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                </div>
+                                <div class="item-amount">
+                                    <p class="sale-before"><span>$</span><span>46.00</span></p>
+                                    <p class="sale-after"><span>$</span><span>36.00</span></p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="shop-item col-12 col-sm-6 col-md-6 col-lg-3">
+                            <div class="shop-item-img">
+                                <a href="#">
+                                    <img src="./Imgs/product-image-2-300x300.jpg" alt="">
+                                </a>
+
+                                <span class="sale-icon">Sale</span>
+                                <div class="add-to-cart">
+                                    <a href="#">
+                                        <i class="fas fa-cart-plus"></i>
+                                        <span>Add to cart</span>
+                                    </a>
+
+                                </div>
+
+                                <div class="add-to-cart--done">
+
+                                </div>
+                            </div>
+                            <div class="shop-item-content">
+                                <a href="#">
+                                    <h4>PAPER POUCH</h4>
+                                </a>
+
+                                <div class="item-rating">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                </div>
+                                <div class="item-amount">
+                                    <p class="sale-before"><span>$</span><span>46.00</span></p>
+                                    <p class="sale-after"><span>$</span><span>36.00</span></p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- grid images -->
+
+            <section class="grid-images">
+                <div class="image-gallery reveal">
+                    <a href="./Imgs/home-1-gallery-1.jpg" class="img-1">
+                    </a>
+                    <a href="./Imgs/home-1-gallery-2.jpg" class="img-2">
+                    </a>
+                    <a href="./Imgs/h-7-img-4.jpg" class="img-3">
+                    </a>
+                    <a href="./Imgs/home-1-gallery-4.jpg" class="img-4">
+                    </a>
+                    <a href="./Imgs/home-1-gallery-5.jpg" class="img-5">
+                    </a>
+                    <a href="./Imgs/home-1-gallery-6.jpg" class="img-6">
+                    </a>
+                    <a href="./Imgs/h-5-baner-img-1.jpg" class="img-7">
+                    </a>
+                    <a href="./Imgs/h-7-parallax-1.jpg" class="img-8">
+                    </a>
+                </div>
+            </section>
+
+            <!-- news posts -->
+            <section class="news-posts">
+                <div class="news-posts-title reveal">
+                    <em>What Happens Here</em>
+                    <h3>READ OUR LATEST NEWS</h3>
+                    <span></span>
+                </div>
+                <div class="news-posts-list reveal container">
+                    <div class="row">
+                        <div class="news-posts-item col-6 col-md-4">
+                            <div class="news-posts-img">
+                                <a href="#">
+
+                                    <img src="./Imgs/home-1-blog-f-img-1.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="news-posts-content">
+                                <h3><a href="#">make it simple</a></h3>
+                                <p>By <a href="#">Mr.Jayki</a> / <a href="#">Competition</a> /
+                                    20.06.2021</p>
+                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+                                    ab culpa facilis voluptas provident, animi illo, harum
+                                    veritatis, dolore suscipit expedita consequuntur eos quae sunt
+                                    nihil placeat incidunt. Totam, officiis!</span>
+                                <a class="news-posts-links" href="#">read more <i
+                                        class='bx bx-right-arrow-alt'></i></a>
+                            </div>
+                        </div>
+                        <div class="news-posts-item col-6 col-md-4">
+                            <div class="news-posts-img">
+                                <a href="#">
+
+                                    <img src="./Imgs/home-1-blog-f-img-1.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="news-posts-content">
+                                <h3><a href="#">make it simple</a></h3>
+                                <p>By <a href="#">Mr.Jayki</a> / <a href="#">Competition</a> /
+                                    20.06.2021</p>
+                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+                                    ab culpa facilis voluptas provident, animi illo, harum
+                                    veritatis, dolore suscipit expedita consequuntur eos quae sunt
+                                    nihil placeat incidunt. Totam, officiis!</span>
+                                <a class="news-posts-links" href="#">read more <i
+                                        class='bx bx-right-arrow-alt'></i></a>
+                            </div>
+                        </div>
+                        <div class="news-posts-item col-6 col-md-4">
+                            <div class="news-posts-img">
+                                <a href="#">
+
+                                    <img src="./Imgs/home-1-blog-f-img-1.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="news-posts-content">
+                                <h3><a href="#">make it simple</a></h3>
+                                <p>By <a href="#">Mr.Jayki</a> / <a href="#">Competition</a> /
+                                    20.06.2021</p>
+                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+                                    ab culpa facilis voluptas provident, animi illo, harum
+                                    veritatis, dolore suscipit expedita consequuntur eos quae sunt
+                                    nihil placeat incidunt. Totam, officiis!</span>
+                                <a class="news-posts-links" href="#">read more <i
+                                        class='bx bx-right-arrow-alt'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        <!-- end main content -->
+        <!-- Begin Footer  -->
+        <footer>
+            <div class="footer-box container">
+                <div class="row">
+                    <div class="footer-calendar col-12 col-sm-6 col-md-6 col-lg-3">
+                        <h4>OPENING HOURS</h4>
+                        <ul>
+                            <li>
+                                <span class="footer-calendar-days">MONDAY</span>
+                                <span class="footer-space"></span>
+                                <span class="footer-calendar-time">CLOSED</span>
+                            </li>
+                            <li>
+                                <span class="footer-calendar-days">TUESDAY</span>
+                                <span class="footer-space"></span>
+                                <span class="footer-calendar-time">7:00 - 22:00</span>
+                            </li>
+                            <li>
+                                <span class="footer-calendar-days">WEDNEDAY</span>
+                                <span class="footer-space"></span>
+                                <span class="footer-calendar-time">7:00 - 22:00</span>
+                            </li>
+                            <li>
+                                <span class="footer-calendar-days">THURSDAY</span>
+                                <span class="footer-space"></span>
+                                <span class="footer-calendar-time">9:00 - 22:00</span>
+                            </li>
+                            <li>
+                                <span class="footer-calendar-days">FRIDAY</span>
+                                <span class="footer-space"></span>
+                                <span class="footer-calendar-time">9:00 - 22:00</span>
+                            </li>
+                            <li>
+                                <span class="footer-calendar-days">SATURDAY</span>
+                                <span class="footer-space"></span>
+                                <span class="footer-calendar-time">9:00 - 24:00</span>
+                            </li>
+                            <li>
+                                <span class="footer-calendar-days">SUNDAY</span>
+                                <span class="footer-space"></span>
+                                <span class="footer-calendar-time">9:00 - 24:00</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-news col-12 col-sm-6 col-md-6 col-lg-3">
+                        <h4>LATEST POSTS</h4>
+                        <ul class="footer-news-list">
+
+                            <li class="footer-news-item">
+                                <a href="#">
+                                    <span>EXPAND YOUR MIND, CHANGE EVERYTHING</span>
+                                </a>
+                                <p><span>19.07.2021</span></p>
+                            </li>
+                            <li class="footer-news-item">
+                                <a href="#">
+                                    <span>PLACES TO GET LOST</span>
+                                </a>
+                                <p><span>01.07.2021</span></p>
+                            </li>
+                            <li class="footer-news-item">
+                                <a href="#">
+                                    <span>LEWIS HOWES</span>
+                                </a>
+                                <p><span>21.06.2021</span></p>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="footer-contact col-12 col-sm-6 col-md-6 col-lg-3">
+                        <h4>CONTACT US</h4>
+                        <div class="contact-box">
+                            <div class="logo-box">
+                                <p class="logo--white">Coffee<span>Plus</span><em>.</em></p>
+                            </div>
+                            <div class="contact-item contact-phone">
+                                <i class='bx bxs-phone'></i>
+                                <span>0999999999</span>
+                            </div>
+                            <div class="contact-item contact-email">
+                                <i class='bx bx-mail-send'></i>
+                                <span>abc999@gmail.com</span>
+                            </div>
+                            <div class="contact-item contact-address">
+                                <i class='bx bx-home-alt'></i>
+                                <span>Ha Noi, Viet Nam</span>
+                            </div>
+                            <div class="contact-item contact-socical">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-instagram-square"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-get-info col-12 col-sm-6 col-md-6 col-lg-3">
+                        <h4>THE LAST STANDARD POST</h4>
+                        <form action="">
+                            <input id='get-info-text' type="text" placeholder="Enter Your Email">
+                            <button id='get-info-button'><i class='bx bx-play'></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+        <!-- End footer -->
+
+        <!-- scroll back to top -->
+        <a class="back-to-top">
+            <i class="fas fa-chevron-circle-up"></i>
+        </a>
+    </div>
+
+
+    <!-- Link JS -->
+    <script src="./Js/all.min.js"></script>
+    <script src="./Js/app.js"></script>
+    <script src="./Js/index.js"></script>
+</body>
+
+</html>
